@@ -54,7 +54,7 @@ setuptools.setup(
     },
     install_requires=(
         "google-api-core>=2.15.0, <3.0.0dev",
-        "pandas[performance,gcp]>=2.0.0, <3.0.0",
+        "pandas>=1.5.0",
         "pyarrow>=12.0.0",
         "tabulate>=0.9.0, <1.0.0",
         "proto-plus>=1.22.3, <2.0.0dev",
